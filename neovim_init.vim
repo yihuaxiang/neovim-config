@@ -32,6 +32,7 @@ let g:deoplete#enable_at_startup = 0
 " 通过 ESC 退出 :te 打开的终端模拟器
 :tnoremap <Esc> <C-\><C-n>
 
+map <Leader>e :History<CR>
 map <Leader>f :Ag<CR>
 map <Leader>wc <C-w><C-c><Esc>
 map <Leader>ws <C-w><C-s><Esc>
